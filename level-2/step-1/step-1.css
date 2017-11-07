@@ -10,9 +10,16 @@
     height: 70px;
     text-align: center;
     background: #D8D8D8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 /*  Step-1 You need to get all of these elements to line up side by side. What display property would do this for you? */
+
+.box {
+    margin: 10px;
+}
 
 .menu {
     width: 100px;
@@ -23,7 +30,6 @@
 .logo {
     width: 300px;
     height: 40px;
-    margin-top: 10px;
     background: #536A63;
 }
 
@@ -36,8 +42,11 @@
 /*  Step-1 Make this container overhang off its parent container using display and bottom properties.  */
 
 .bottom-container {
+    display: flex;
+    position: relative;
+    top: calc(100% - 70px - 30px);
+    margin: 0 auto;
     width: 60%;
     height: 60px;
-    left: 22%;
     background: #536A63;
 }
