@@ -2,7 +2,8 @@
 .main-bottom-section {
     margin-top: 65px;
     text-align: center;
-
+    margin: 65px auto 0;
+    max-width: 700px;
 }
 
 .item {
